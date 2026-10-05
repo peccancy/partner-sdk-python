@@ -120,6 +120,14 @@ Non-2xx responses raise `peccancy_partner.PartnerApiError` with `.status_code` a
 - [`examples/connect_your_game.py`](./examples/connect_your_game.py)
 - [`examples/webhook_receiver.py`](./examples/webhook_receiver.py)
 
+## Public data and AI agents
+
+This SDK covers the signed Partner API. Reading disputes and odds needs neither the SDK nor a key:
+
+- **Public read API** — list, search and read disputes: [OpenAPI description](https://disputes.online/openapi.json)
+- **MCP server for AI agents** — `https://disputes.online/mcp` (read-only, no authentication)
+- **Everything on one page** — https://disputes.online/developers
+
 ## Links
 
 - **Register / get credentials:** https://disputes.online/profile?tab=partners
